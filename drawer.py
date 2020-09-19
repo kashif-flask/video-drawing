@@ -29,14 +29,14 @@ def drawline(points):
 def empty(a):
     pass
 
-cv2.namedWindow("trackbar")
-cv2.resizeWindow("trackbar",640,240)
-cv2.createTrackbar("hue min","trackbar",0,179,empty)
-cv2.createTrackbar("hue max","trackbar",179,179,empty)
-cv2.createTrackbar("sat min","trackbar",0,255,empty)
-cv2.createTrackbar("sat max","trackbar",255,255,empty)
-cv2.createTrackbar("val min","trackbar",0,255,empty)
-cv2.createTrackbar("val max","trackbar",255,255,empty)
+#cv2.namedWindow("trackbar")
+#cv2.resizeWindow("trackbar",640,240)
+#cv2.createTrackbar("hue min","trackbar",0,179,empty)
+##cv2.createTrackbar("hue max","trackbar",179,179,empty)
+#cv2.createTrackbar("sat min","trackbar",0,255,empty)
+##cv2.createTrackbar("sat max","trackbar",255,255,empty)
+#cv2.createTrackbar("val min","trackbar",0,255,empty)
+#cv2.createTrackbar("val max","trackbar",255,255,empty)
 cap=cv2.VideoCapture(0)
 points=[]
 mypoints=[]
